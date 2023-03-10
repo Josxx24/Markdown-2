@@ -1,6 +1,6 @@
 # **Punteros**
-## **¿Qué son los punteros?**
-Un puntero es una variable que almacena la dirección de memoria de un objeto. Los punteros se usan ampliamente en C y C++ para tres propósitos principales: para asignar nuevos objetos en el montón, para pasar funciones a otras funciones.
+## **Â¿QuÃ© son los punteros?**
+Un puntero es una variable que almacena la direcciÃ³n de memoria de un objeto. Los punteros se usan ampliamente en C y C++ para tres propÃ³sitos principales: para asignar nuevos objetos en el montÃ³n, para pasar funciones a otras funciones.
 
 <center>
 
@@ -10,13 +10,13 @@ Un puntero es una variable que almacena la dirección de memoria de un objeto. Lo
 
 ## **Los punteros y el aspersand**
 
-El ampersand es un operador de C/C++ y es comúnmente utilizado para los punteros, este operador nos permite obtener la dirección de memoria de una variable cualquiera y es justo esto (la dirección en memoria) lo que utilizan los punteros para referenciar valores.
+El ampersand es un operador de C/C++ y es comÃºnmente utilizado para los punteros, este operador nos permite obtener la direcciÃ³n de memoria de una variable cualquiera y es justo esto (la direcciÃ³n en memoria) lo que utilizan los punteros para referenciar valores.
 
 ## **Los punetors y el asterisco**
 
-El asterisco es, por decirlo de alguna forma, el operador por excelencia de los punteros su utilidad radica en que si el valor de dicho apuntador corresponde a una dirección de memoria el asterisco nos permite resolverla y acceder al valor almacenado allí Viéndolo desde otro enfoque, un apuntador es únicamente una dirección de memoria (un número) el asterisco es el que hace la magia de obtener el valor referenciado por dicha dirección.
+El asterisco es, por decirlo de alguna forma, el operador por excelencia de los punteros su utilidad radica en que si el valor de dicho apuntador corresponde a una direcciÃ³n de memoria el asterisco nos permite resolverla y acceder al valor almacenado allÃ­ ViÃ©ndolo desde otro enfoque, un apuntador es Ãºnicamente una direcciÃ³n de memoria (un nÃºmero) el asterisco es el que hace la magia de obtener el valor referenciado por dicha direcciÃ³n.
 
-## **¿Cómo funcionan?**
+## **Â¿CÃ³mo funcionan?**
 
 Como podemos observar en la imagen anterior, existen dos espacios en los cuales se guardan los datos, funciones o estructuras, en el stack se guardaran los datos llamados punteros los cuales pueden apuntar a espacios de memoria y modificarlos sin necesidad de crear una copia y almacenarla en el heap, a diferencia de los datos que se guardan en el heap si no se usa un puntero los datos que se vayan modificando se creara una copia y se guardara en el mismo ocupando mucha mas memoria.
 
@@ -56,9 +56,9 @@ Las funcionalidades de los punteros pueden ser infinitas, pero en general en est
 - Listas
 - Arboles Binarios
 
-# **¿Que son las colas?**
+# **Â¿Que son las colas?**
 
-Las colas se utilizan en sistemas informáticos, transportes y operaciones de investigación (entre otros), dónde los objetos, personas o eventos son tomados como datos que se almacenan y se guardan mediante colas para su posterior procesamiento.
+Las colas se utilizan en sistemas informÃ¡ticos, transportes y operaciones de investigaciÃ³n (entre otros), dÃ³nde los objetos, personas o eventos son tomados como datos que se almacenan y se guardan mediante colas para su posterior procesamiento.
 
 <center>
 
@@ -207,16 +207,16 @@ int main()
 A continuacion explicaremos brevemente las opciones que se presentan en el menu colas:
 
 - Salir: Finaliza el bucle en el cual se desarrollan las demas funciones.
-- Encolar: Permite añadir un nuevo nodo en el que se va a guardar un dato como observamos en la imagen.
+- Encolar: Permite aÃ±adir un nuevo nodo en el que se va a guardar un dato como observamos en la imagen.
 - Desencolar: Elimina el primer dato que se haya ingresado.
-- Mostrar cola: Como podemos observar en la imagen anterior permite mostrar los elementos que se añadieron a la cola.
+- Mostrar cola: Como podemos observar en la imagen anterior permite mostrar los elementos que se aÃ±adieron a la cola.
 - Vaciar cola: Elimina todos los datos de la cola.
 
-Para mas informacion [presione aquí](https://www.uv.mx/personal/ermeneses/files/2021/08/Clase6-ColasFinal.pdf)
+Para mas informacion [presione aquÃ­](https://www.uv.mx/personal/ermeneses/files/2021/08/Clase6-ColasFinal.pdf)
 
-## **¿Qué son las pilas?**
+## **Â¿QuÃ© son las pilas?**
 
-Una pila (stack en inglés) es una lista ordinal o estructura de datos en la que el modo de acceso a sus elementos es de tipo LIFO (del inglés Last In First Out último en entrar, primero en salir) que permite almacenar y recuperar datos.
+Una pila (stack en inglÃ©s) es una lista ordinal o estructura de datos en la que el modo de acceso a sus elementos es de tipo LIFO (del inglÃ©s Last In First Out Ãºltimo en entrar, primero en salir) que permite almacenar y recuperar datos.
 
 <center>
 
@@ -341,11 +341,11 @@ int main()
 
 Como podemos observar en las pilas funcionan apilado un dato o caracter uno sobre otro los mismos se apilaran en orden y se desapilaran de la misma manera de arriba hacia abajo, si se escoje la funcion eliminar pila se borran todos.
 
-Para mas ejemplos Para mas ejemplos [presione aquí](https://www.programacion.com.py/escritorio/c/pilas-en-c )
+Para mas ejemplos Para mas ejemplos [presione aquÃ­](https://www.programacion.com.py/escritorio/c/pilas-en-c )
 
-## **¿Qué son las listas?**
+## **Â¿QuÃ© son las listas?**
 
-La clase list de la Biblioteca estándar de C++ es una plantilla de clase de contenedores de secuencias que mantienen sus elementos en disposición lineal y permiten realizar inserciones y eliminaciones de manera eficiente en cualquier ubicación de la secuencia.
+La clase list de la Biblioteca estÃ¡ndar de C++ es una plantilla de clase de contenedores de secuencias que mantienen sus elementos en disposiciÃ³n lineal y permiten realizar inserciones y eliminaciones de manera eficiente en cualquier ubicaciÃ³n de la secuencia.
 
 <center>
 
@@ -620,11 +620,11 @@ En este caso podemos observar que podemos crear una lista que vaya en orden, est
 - Eliminar elementos con valor 'V': Permite eliminar todos los datos que esten repetidos dentro de la lista.
 - Salir: Esta opcion permite salir del bucle en el que se desarrollan las otras funciones.
 
-Para mas ejemplos [presione aquí](https://tecpro-digital.com/ejemplos-de-listas-enlazadas-c/ )
+Para mas ejemplos [presione aquÃ­](https://tecpro-digital.com/ejemplos-de-listas-enlazadas-c/ )
 
-## **¿Qué es un arbol binario?**
+## **Â¿QuÃ© es un arbol binario?**
 
-Es la manera recursiva como pasaremos por cada nodo del árbol, existes tres formas
+Es la manera recursiva como pasaremos por cada nodo del Ã¡rbol, existes tres formas
 
 - **Enorden:** Si visitamos primero hijo izquierdo, luego el padre y finalmente el hijo derecho
 - **Preorden:** Primero el padre, luego el hijo izquierdo y finalmente el hijo derecho.
@@ -755,23 +755,23 @@ int main()
 
 Como podemos observar en este ejemplos no pide primero el numero de nodos que deseamos crear para que funcione el arbol, luego nos pide uno a uno los valores que seran ingresados en cada nodo, al final presenta el arbol, y las funciones en orden, pre orden y post orden presentaran los valores respectivamente.
 
-Para mas ejemplos [presione aquí](https://tecpro-digital.com/ejemplos-de-arboles-binarios-en-c/ )
+Para mas ejemplos [presione aquÃ­](https://tecpro-digital.com/ejemplos-de-arboles-binarios-en-c/ )
 
 # **AUTOMATAS FINITOS DETERMINISTAS**
 
-## **¿Qué es un AUTOMATA FINITO DETERMINISTA?**
+## **Â¿QuÃ© es un AUTOMATA FINITO DETERMINISTA?**
 
-Un autómata finito determinista (abreviado AFD) es un autómata finito que además es un sistema determinista; es decir, para cada estado en que se encuentre el autómata, y con cualquier símbolo del alfabeto leído, existe siempre no más de una transición posible desde ese estado y con ese símbolo.
+Un autÃ³mata finito determinista (abreviado AFD) es un autÃ³mata finito que ademÃ¡s es un sistema determinista; es decir, para cada estado en que se encuentre el autÃ³mata, y con cualquier sÃ­mbolo del alfabeto leÃ­do, existe siempre no mÃ¡s de una transiciÃ³n posible desde ese estado y con ese sÃ­mbolo.
 
-## Definición formal
+## DefiniciÃ³n formal
 
 Formalmente, se define como una 5-tupla (Q, ?, q0, ?, F) donde:
 
 - Q: Es un conjunto de estados.
 - ?: Es un alfabeto.
 - q0: Pertenece a Q es el estado inicial.
-- ?: Es una función de transición.
-- F: Es un subconjunto de Q es un conjunto de estados finales o de aceptación.
+- ?: Es una funciÃ³n de transiciÃ³n.
+- F: Es un subconjunto de Q es un conjunto de estados finales o de aceptaciÃ³n.
 
 <center>
 
@@ -865,9 +865,8 @@ int main() {
 }
 ```
 
-Para mas ejemplos de AFD [presione aquí](https://www.matesfacil.com/automatas-lenguajes/automatas-finitos-lenguajes-regulares-ejercicios-resueltos.html )
+Para mas ejemplos de AFD [presione aquÃ­](https://www.matesfacil.com/automatas-lenguajes/automatas-finitos-lenguajes-regulares-ejercicios-resueltos.html )
 
-> Los ordenadores son inútiles. Sólo pueden darte respuestas. -Pablo Picasso
+> Los ordenadores son inÃºtiles. SÃ³lo pueden darte respuestas. -Pablo Picasso
 
-Como lo menciona esta frase celebre de Pablo Picasso es cierto, los ordenadores nos dan solo respuestas, estas respuestas despenderan de nuestras preguntas así que lo mejor para seguir innovando dentro de la tecnología es seguir siendo creativos y cuestionarnos a nosotros mismos hasta que punto llegaremos.
-
+Como lo menciona esta frase celebre de Pablo Picasso es cierto, los ordenadores nos dan solo respuestas, estas respuestas despenderan de nuestras preguntas asÃ­ que lo mejor para seguir innovando dentro de la tecnologÃ­a es seguir siendo creativos y cuestionarnos a nosotros mismos hasta que punto llegaremos.
